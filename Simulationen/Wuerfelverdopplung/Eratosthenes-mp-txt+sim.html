@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Eratosthenes-02-mp.cdy</title>
+    <style type="text/css">
+        * {
+            margin: 2px;
+            padding: 2px;
+        }
+
+        #CSConsole {
+            background-color: #FAFAFA;
+            border-top: 1px solid #333333;
+            bottom: 0px;
+            height: 200px;
+            overflow-y: scroll;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cindyjs.org/dist/v0.8/CindyJS.css">
+    <script type="text/javascript" src="https://cindyjs.org/dist/v0.8/Cindy.js"></script>
+    <script type="text/javascript">
+var cdy = CindyJS({
+  scripts: "cs*",
+  defaultAppearance: {
+    dimDependent: 0.7,
+    fontFamily: "sans-serif",
+    lineSize: 1,
+    pointSize: 5.0,
+    textsize: 12.0
+  },
+  angleUnit: "°",
+  geometry: [
+    {name: "A1", type: "Free", pos: [4.0, 0.6451612903225806, -0.3225806451612903], color: [1.0, 0.0, 0.0], labeled: true, size: 7.0},
+    {name: "Text0", type: "Through", pos: [0.0, -0.0, 0.0], color: [0.0, 0.0, 1.0], args: ["A1"], labeled: true},
+    {name: "b", type: "Through", pos: [-4.057441575939328E-17, 2.0000000000000004, 4.0], color: [0.0, 0.0, 0.0], args: ["A1"], size: 7},
+    {name: "c", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "A1"], visible: false},
+    {name: "A4", type: "PointOnLine", pos: [4.0, -3.496774193548386, -0.3225806451612902], color: [1.0, 0.0, 0.0], args: ["c"], labeled: true, size: 7.0},
+    {name: "d", type: "Parallel", color: [0.0, 0.0, 0.0], args: ["b", "A4"], size: 7},
+    {name: "C0", type: "CircleMP", color: [0.0, 0.0, 1.0], args: ["A1", "A4"], visible: false, printname: "$C_{0}$"},
+    {name: "Collection__1", type: "IntersectionConicLine", args: ["C0", "b"]},
+    {name: "A2", type: "SelectP", pos: [0.8799999999999994, -4.0, 2.0], color: [1.0, 0.0, 0.0], args: ["Collection__1"], labeled: true},
+    {name: "C", type: "SelectP", pos: [4.0, 0.31695721077654465, -0.15847860538827233], color: [1.0, 0.0, 0.0], args: ["Collection__1"], labeled: true},
+    {name: "e", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "A2"], visible: false},
+    {name: "A3", type: "Meet", color: [1.0, 0.0, 0.0], args: ["d", "e"], labeled: true},
+    {name: "Q1", type: "Poly", color: [0.0, 0.0, 0.0], fillcolor: [1.0, 0.0, 0.0], fillalpha: 0.5128205128205128, args: ["A1", "A2", "A3", "A4"]},
+    {name: "B1", type: "PointOnLine", pos: [4.0, 2.0618556701030926, -1.0309278350515465], color: [1.0, 0.0, 0.0], args: ["b"], labeled: true, size: 7.0},
+    {name: "f", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "B1"], visible: false},
+    {name: "B4", type: "Meet", color: [1.0, 0.0, 0.0], args: ["d", "f"], labeled: true},
+    {name: "A", type: "CircleMP", color: [0.0, 0.0, 1.0], args: ["B1", "B4"], visible: false, printname: "$C_{1}$"},
+    {name: "Collection__2", type: "IntersectionConicLine", args: ["A", "b"]},
+    {name: "B", type: "SelectP", pos: [4.0, 0.478468899521531, -0.2392344497607655], color: [1.0, 0.0, 0.0], args: ["Collection__2"], visible: false},
+    {name: "B2", type: "SelectP", pos: [4.0, -0.8928571428571425, 0.4464285714285713], color: [1.0, 0.0, 0.0], args: ["Collection__2"], labeled: true},
+    {name: "g", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "B2"], visible: false},
+    {name: "B3", type: "Meet", color: [1.0, 0.0, 0.0], args: ["d", "g"], labeled: true},
+    {name: "Q2", type: "Poly", color: [0.0, 0.0, 0.0], fillcolor: [0.098, 0.62, 0.306], fillalpha: 0.4444444444444444, args: ["B1", "B2", "B3", "B4"]},
+    {name: "C1", type: "PointOnLine", pos: [3.520000000000001, -4.0, 2.0000000000000004], color: [1.0, 0.0, 0.0], args: ["b"], labeled: true, size: 7.0},
+    {name: "h", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "C1"], visible: false},
+    {name: "C4", type: "Meet", color: [1.0, 0.0, 0.0], args: ["d", "h"], labeled: true},
+    {name: "N", type: "CircleMP", color: [0.0, 0.0, 1.0], args: ["C1", "C4"], visible: false, printname: "$C_{2}$"},
+    {name: "Collection__3", type: "IntersectionConicLine", args: ["N", "b"]},
+    {name: "C2", type: "SelectP", pos: [4.0, -0.5479452054794518, 0.27397260273972596], color: [1.0, 0.0, 0.0], args: ["Collection__3"], labeled: true},
+    {name: "M", type: "SelectP", pos: [4.0, 0.7220216606498193, -0.36101083032490966], color: [1.0, 0.0, 0.0], args: ["Collection__3"], visible: false},
+    {name: "k", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "C2"], visible: false},
+    {name: "C3", type: "Meet", color: [1.0, 0.0, 0.0], args: ["d", "k"], labeled: true},
+    {name: "Q3", type: "Poly", color: [0.0, 0.0, 0.0], fillcolor: [0.0, 0.0, 1.0], fillalpha: 0.47863247863247865, args: ["C1", "C2", "C3", "C4"]},
+    {name: "l", type: "Segment", color: [0.0, 0.0, 1.0], args: ["A2", "A4"], visible: false},
+    {name: "m", type: "Segment", color: [0.0, 0.0, 1.0], args: ["B2", "B4"]},
+    {name: "n", type: "Segment", color: [0.0, 0.0, 1.0], args: ["C2", "C4"]},
+    {name: "D", type: "PointOnLine", pos: [4.0, 0.4712328767123273, 0.27397260273972596], color: [1.0, 0.0, 0.0], args: ["k"], labeled: true, size: 7.0},
+    {name: "o", type: "Join", color: [0.0, 0.0, 0.0], args: ["A4", "D"]},
+    {name: "E", type: "Meet", color: [1.0, 0.0, 0.0], args: ["n", "o"], labeled: true},
+    {name: "F", type: "Meet", color: [1.0, 0.0, 0.0], args: ["m", "o"], labeled: true},
+    {name: "K", type: "Mid", color: [1.0, 0.0, 0.0], args: ["A1", "A4"], size: 0.0},
+    {name: "dist0", type: "Dist", color: [0.0, 0.0, 1.0], args: ["A1", "A4"]},
+    {name: "Text-a", type: "Text", color: [0.0, 0.0, 0.0], args: ["dist0", "K"], text: "a= @#\"dist0\"", textsize: 14.0, dock: {to: "K", offset: [3.0, 3.0]}},
+    {name: "L", type: "Mid", color: [1.0, 0.0, 0.0], args: ["C2", "D"], size: 0.0},
+    {name: "dist1", type: "Dist", color: [0.0, 0.0, 1.0], args: ["C2", "D"]},
+    {name: "Text1", type: "Text", color: [0.0, 0.0, 0.0], args: ["dist1", "L"], text: "b= @#\"dist1\"", textsize: 14.0, dock: {to: "L", offset: [3.0, 3.0]}},
+    {name: "a", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "F"], visible: false},
+    {name: "p", type: "Orthogonal", color: [0.0, 0.0, 1.0], args: ["b", "E"], visible: false},
+    {name: "H", type: "Meet", color: [1.0, 0.0, 0.0], args: ["b", "a"], labeled: true},
+    {name: "G", type: "Meet", color: [1.0, 0.0, 0.0], args: ["b", "p"], labeled: true},
+    {name: "O", type: "Meet", color: [1.0, 0.0, 0.0], args: ["a", "p"], visible: false},
+    {name: "q", type: "Segment", color: [0.0, 0.0, 1.0], args: ["G", "E"], dashtype: "dashed"},
+    {name: "r", type: "Segment", color: [0.0, 0.0, 1.0], args: ["H", "F"], dashtype: "dashed"},
+    {name: "P", type: "Mid", color: [1.0, 0.0, 0.0], args: ["F", "H"], size: 0.0},
+    {name: "dist2", type: "Dist", color: [0.0, 0.0, 1.0], args: ["F", "H"]},
+    {name: "Text2", type: "Text", color: [0.0, 0.0, 0.0], args: ["dist2", "P"], text: "x= @#\"dist2\"", textsize: 14.0, dock: {to: "P", offset: [3.0, 3.0]}},
+    {name: "Q", type: "Mid", color: [1.0, 0.0, 0.0], args: ["E", "G"], size: 0.0},
+    {name: "dist3", type: "Dist", color: [0.0, 0.0, 1.0], args: ["E", "G"]},
+    {name: "Text3", type: "Text", color: [0.0, 0.0, 0.0], args: ["Q", "dist3"], text: "y= @#\"dist3\"", textsize: 14.0, dock: {to: "Q", offset: [3.0, 3.0]}},
+    {name: "Text7", type: "Text", color: [0.0, 0.0, 0.0], dock: {corner: "LL", offset: [394.0, 15.0]}},
+    {name: "Text10", type: "Evaluate", color: [0.0, 0.0, 0.0], dock: {corner: "UL", offset: [38.0, -40.0]}},
+    {name: "Text4", type: "Calculation", color: [0.0, 0.0, 0.0], text: "\"a : x = \" + dist0/dist2", textsize: 16.0, dock: {corner: "LL", offset: [223.0, 35.0]}},
+    {name: "Text5", type: "Calculation", color: [0.0, 0.0, 0.0], text: "\"x : y = \" + dist2/dist3", textsize: 16.0, dock: {corner: "LL", offset: [426.0, 35.0]}},
+    {name: "Text6", type: "Calculation", color: [0.0, 0.0, 0.0], text: "\"y : b = \" + dist3/dist1", textsize: 16.0, dock: {corner: "LL", offset: [605.0, 35.0]}}
+  ],
+  ports: [{
+    id: "CSCanvas",
+    width: 936,
+    height: 515,
+    transform: [{visibleRect: [-14.66, 15.54, 22.78, -5.06]}],
+    background: "rgb(168,176,192)"
+  }],
+  csconsole: false,
+  use: ["katex"],
+  cinderella: {build: 1952, version: [3, 0, 1952]}
+});
+    </script>
+</head>
+<body>
+    <div id="CSCanvas"></div>  
+<br> 
+<center>
+<h2> Die Verdopplung des Würfels </h2>
+<p> mit Hilfe der mittleren Proportionalen </p> 
+<p> Jochen Ziegenbalg </p> 
+</center>
+
+<p> Das "delische" Problem stammt aus der griechischen Antike. &nbsp; Es bestand 
+darin, zu einem gegebenen Würfel einen solchen zu konstruieren, der
+das doppelte Volumen hat. &nbsp; Als Konstruktionswerkzeuge waren zunächst
+nur Zirkel und Lineal zugelassen - das Lineal ohne Markierungen. &nbsp;
+Die Lösung des Problems setzt, in heutiger Sprechweise, die Konstruktion
+der dritten Wurzel von 2 voraus. &nbsp;  Dies ist, wie wir heute wissen,
+mit den klassischen Werkzeugen (Zirkel und Lineal) unmöglich. </p> 
+
+<p> Da sich das Problem hartnäckig einer klassischen Lösung entzog, gab es schon frühzeitig  Versuche, andere Werkzeuge heranzuziehen. &nbsp; Von dem griechischen, in Alexandria wirkenden, Mathematiker Eratosthenes (<i>Eratosthenes von Kyrene, ca. 276-194 v.Chr.</i>) stammt die im folgenden dargestellte Konstruktion mit Hilfe von quadratischen Plättchen, die sich entlang
+einer Schiene verschieben lassen. &nbsp; Streng genommen löste Eratosthenes damit das allgemeinere Problem der <i>mittleren Proportionalen</i>: &nbsp;  
+Zu gegebenen Strecken <i>a</i>&nbsp; und &nbsp; <i>b</i> &nbsp; konstruiere
+man ihre "mittleren Proportionalen", also Strecken <i>x</i>&nbsp; und &nbsp;<i>y</i>&nbsp; mit der Eigenschaft:
+<center>
+<p><i>a</i> : <i>x</i> = <i>x</i> : <i>y</i> = <i>y</i> : <i>b</i></center>
+
+<p>Setzt man&nbsp; <i>b</i> = 1, so ist die mittlere Proportionale <i>y</i>&nbsp; gleich der dritten Wurzeln von &nbsp;<i>a</i>&nbsp; und das delische Problem ist gelöst. </p> 
+
+<p> Der von Eratosthenes angegebene Mechanismus besteht aus einem Paar von parallelen Schienen, auf denen sich drei kongruente quadratische Plättchen verschieben lassen. &nbsp; Die Quadrate Q1:=(A1,A2,A3,A4),  Q2:=(B1,B2,B3,B4) und Q3:=(C1,C2,C3,C4) sind in der folgenden Simulation in den Farben rot, grün und blau gezeichnet.  Ihre Seitenlängen sind gleich dem Abstand der Schienen.  Die Grösse <i>a</i> ist also z.B. gleich der Länge der Strecke |A1, A4| (vgl. Abbildung).   Die Strecke <i>b</i> wird am rechten Rand auf dem am weitesten rechts liegenden Quadrat markiert: <i>b</i> = |C2, D| (siehe Simulation).&nbsp; Auf den quadratischen Plättchen sind die Diagonalen eingezeichnet.&nbsp; Eine weitere Schiene ist im Punkt &nbsp;
+A4&nbsp; drehbar gelagert, ihre Richtung ist dadurch festgelegt, dass 
+sie stets durch den Punkt &nbsp; D &nbsp; läuft. &nbsp;  Dabei schneidet die Schiene die rechten vertikalen Seiten der anderen Quadrate in den Punkten &nbsp;E&nbsp; und &nbsp;F. </p> 
+ 
+<p> Die Aufgabe besteht nun darin, die quadratischen Plättchen so zu verschieben, dass die Punkte F und E auf den jeweiligen Diagonalen liegen. &nbsp; Ist dies der Fall, so lässt sich durch wiederholte Anwendung des Strahlensatzes zeigen, dass die Strecken  &nbsp;FH (=<i>x</i>) &nbsp; und&nbsp; EG (= <i>y</i>)&nbsp; die mittleren Proportionalen von &nbsp;<i>a</i>&nbsp; und &nbsp;<i>b</i>&nbsp; sind.  </p> 
+
+<p> Die Länge der Strecke &nbsp;<i>a</i>&nbsp; ist durch den Abstand der Schienen fest vorgegeben.&nbsp; Für andere Werte von &nbsp;<i>a</i>&nbsp; und &nbsp;<i>b</i>&nbsp;
+lassen sich die mittleren Proportionalen dann mit Hilfe des Prinzips der Ähnlichkeit bestimmen. </p> 
+<p> Der von Eratosthenes angegebene Mechanismus wird =im folgenden mit Hilfe der Geometrie-Software <a href="https://www.cinderella.de/tiki-index.php"> Cinderella </a> 
+simuliert. &nbsp; Dabei kann an allen gross gezeichneten Punkten &quot;gezogen&quot; werden. &nbsp; Die Plättchen lassen sich verschieben, indem man sie jeweils an der linken unteren Ecke "anfasst".  </p>
+
+<p> Beim Experimentieren stellt man fest, dass man die Plättchen in der Regel mehrfach ausrichten
+(nachjustieren) muss, bis sich eine visuell befriedigende Situation einstellt.  &nbsp; Es versteht sich von selbst, dass durch dieses Verfahren nur eine Näherungslösung zustande kommt.  </p> 
+
+<p> Im Gegensatz zu dem von Eratosthenes konstruierten Mechanismus kann bei dem in der Simulation verwendeten &quot;virtuellen&quot; Mechanismus auch der Abstand der Schienen leicht modifiziert werden - ein Konstruktionsbaukasten für solch einen Mechanismen hätte Eratosthenes vermutlich gut gefallen. </p> 
+
+<br> 
+
+	
+</html>
