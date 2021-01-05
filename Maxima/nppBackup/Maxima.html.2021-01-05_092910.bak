@@ -41,10 +41,9 @@
     <li> <a href="Pi-Archimedes-w.pdf"> Archimedes‘ algorithm for approximating Pi      </a> </li>
     <li> <a href="egyptian-mult-w.pdf"> The Egyptian multiplication algorithm      </a> </li>
     <li> <a href="Fibonacci-Dw.pdf"> Fibonacci numbers – case studies in recursion and iteration </a> </ul> 
-<p> More Maxima programs:  </p> 
+<p> A stochastic simulation: </p> 
 <ul>
-    <li> <a href="independent-subsets.pdf"> Independent subsets of a finite set      </a> </li>
-    <li> <a href="collecting-complete-sets-w.pdf">  A stochastic simulation:  Waiting time for complete sets </a> </li>
+    <li> <a href="collecting-complete-sets-w.pdf">  Waiting time for complete sets </a> </li>
 </ul> 	
 
 </body>  
