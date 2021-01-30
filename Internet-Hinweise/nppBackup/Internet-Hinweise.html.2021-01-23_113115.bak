@@ -40,12 +40,12 @@
 	<li> <a href="https://oeis.org/">Online encyclopedia of integer sequences (OEIS)</a> &nbsp; founded by N.J.A. Sloane</li>
   </ul>  
     <li> Mathematik-Museen / Mathematik-Ausstellungen / Mathematik zum Experimentieren </li>
-    <ul>
-      <li> <a href="https://www.mathematikum.de/"> Mathematikum</a>  &nbsp; Erstes Mathematik-Museum der Welt in Giessen </li>
-	  <li> <a href="http://www.erlebnisland-mathematik.de/"> Erlebnisland Mathematik</a> &nbsp; TU Dresden </li>  
-	  <li> <a href="https://www.ma.tum.de/de/schulportal/ix-quadrat.html"> ix-quadrat </a> 
-        &nbsp;&nbsp;	
-	  <a href="http://www.mathe-vital.de/"> Mathe Vital</a> &nbsp;&nbsp; TU München </li>
+  <ul>
+    <li> <a href="https://www.mathematikum.de/"> Mathematikum</a>  &nbsp; Erstes Mathematik-Museum der Welt in Giessen </li>
+	<li> <a href="http://www.erlebnisland-mathematik.de/"> Erlebnisland Mathematik</a> &nbsp; TU Dresden </li>  
+	<li> <a href="https://www.ma.tum.de/de/schulportal/ix-quadrat.html"> ix-quadrat </a> 
+         &nbsp;&nbsp;	
+		 <a href="http://www.mathe-vital.de/"> Mathe Vital</a> &nbsp;&nbsp; TU München </li>
   </ul> 
     <li> Mathematik-Animationen / Video-Plattformen zur Mathematik </li>
       <ul>
@@ -54,18 +54,18 @@
 	    <li> <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw"> 3Blue1Brown (video channel) </a> </li>  
         <li> <a href="https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg"> Mathologer </a> </li>   
   	<li> Einige herausragende Beispiele: </li>      
-	  <ul> 
-	    <li> Die Monster-Gruppe  (Symmetrie, Gruppen, Gleichungen, Radikale, und die Monster-Gruppe):  <br> 
-  	    <a href="https://www.youtube.com/watch?v=mH0oCDa74tE"> The Monster Group (3Blue1Brown) </a> <br> 
-	    <a href="https://www.youtube.com/watch?v=jsSeoGpiWsw"> The Monster Group (Numberphile)  </a> </li> 
-	    <li> Das "Basel"-Problem (L. Euler):  mathematisch-physikalische Lösung im Video durch ein geschicktes Arrangement von Lichtquellen ("lighthouses"): <br> 
+	<ul> 
+	  <li> Die Monster-Gruppe  (Symmetrie, Gruppen, Gleichungen, Radikale, und die Monster-Gruppe):  <br> 
+	  <a href="https://www.youtube.com/watch?v=mH0oCDa74tE"> The Monster Group (3Blue1Brown) </a> <br> 
+	  <a href="https://www.youtube.com/watch?v=jsSeoGpiWsw"> The Monster Group (Numberphile)  </a> </li> 
+	  <li> Das "Basel"-Problem (L. Euler):  mathematisch-physikalische Lösung im Video durch ein geschicktes Arrangement von Lichtquellen ("lighthouses"): <br>  
 	    <a href="https://www.youtube.com/watch?v=d-o3eB9sfls"> The Basel Problem  </a> </li> 
-	    <li> Die Riemannsche Zeta-Funktion: 
-	     <a href="https://www.youtube.com/watch?v=sD0NjbwqlYw"> The Riemann Zeta-Function </a> </li>  
-	    <li> Die Kleinsche Flasche: 
+	  <li> Die Riemannsche Zeta-Funktion: 
+	    <a href="https://www.youtube.com/watch?v=sD0NjbwqlYw"> The Riemann Zeta-Function </a> </li>  
+	  <li> Die Kleinsche Flasche: 
 	    <a href="https://www.youtube.com/watch?v=dfhiVaJj9UY"> How to fill a Klein Bottle with water </a> </li>  
-	  </ul>  
-      </ul> 
+	</ul>  
+  </ul> 
 </ul>
   
 </body> 

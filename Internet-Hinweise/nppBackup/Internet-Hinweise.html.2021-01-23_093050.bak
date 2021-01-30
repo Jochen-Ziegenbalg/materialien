@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+  <title>Internet-Seiten</title>
+  <meta name="author" content="Jochen Ziegenbalg">
+  <meta name="keywords" content="Figurierte Zahlen, Algorithmus, Algorithmen, Zahlentheorie, Simulationen, diskrete Mathematik, Logo"> 
+  <!-- next:  css stuff / reduce margin --> 
+  <!-- QQQ   p {margin-bottom: 10px }  QQQ  -->
+  <style>    
+    p, h2 {margin: 10px }
+  </style>  
+</head>
+
+<body> 
+<!-- <body style="background-color: rgb(232, 232, 232); direction: ltr;">   --> 
+<!-- alternative background-color:  rgb(224, 255, 224);  --> 
+<h2> Einige weitere Internet-Seiten zur Mathematik</h2> 
+<p> Die folgenden Nennungen sind hochgradig subjektiver Natur.  Für Hinweise auf weitere in diese Sammlung passende Seiten bin ich stets dankbar. </p> 
+
+<ul>
+  <li> Zur Geschichte der Mathematik </li>
+  <ul>
+    <li> <a href="http://www-groups.dcs.st-andrews.ac.uk/%7Ehistory/index.html"> Mac Tutor History of Mathematics</a> &nbsp; University of St. Andrews  </li>
+    <li> <a href="http://aleph0.clarku.edu/%7Edjoyce/java/elements/toc.html">Die
+Elemente des Euklid</a> &ndash; dynamisch &nbsp;</li>
+    <li> <a href="https://www.cs.drexel.edu/~crorres/Archimedes/contents.html">Archimedes</a>  &nbsp; (Internet-Seite von Chris Rorres) </li>
+  </ul>
+  <li> Zur Kreiszahl Pi </li>
+  <ul>
+    <li> <a href="http://wayback.cecm.sfu.ca/pi/pi.html">The Pi Pages</a>&nbsp;</li>
+  </ul>
+  <li> Zur Zahlentheorie </li>
+  <ul>
+    <li> <a href="https://primes.utm.edu/">The Prime Pages</a></li>
+  </ul>
+  <li> Mathematik in spezifischen Enzyklopädien </li>
+  <ul>
+    <li> <a href="http://mathworld.wolfram.com/">MathWorld</a>  &nbsp; Eric Weissteins Mathematical Encyclopedia </li>
+	<li> <a href="https://oeis.org/">Online encyclopedia of integer sequences</a> &nbsp; founded by N.J.A. Sloane</li>
+  </ul>  
+   <li> Mathematik-Museen / Mathematik-Ausstellungen / Mathematik zum Experimentieren </li>
+  <ul>
+    <li> <a href="https://www.mathematikum.de/"> Mathematikum</a>  &nbsp; Erstes Mathematik-Museum der Welt in Giessen </li>
+	<li> <a href="http://www.erlebnisland-mathematik.de/"> Erlebnisland Mathematik</a> &nbsp; TU Dresden </li>  
+	<li> <a href="https://www.ma.tum.de/de/schulportal/ix-quadrat.html"> ix-quadrat </a> 
+         &nbsp;&nbsp;	
+		 <a href="http://www.mathe-vital.de/"> Mathe Vital</a> &nbsp;&nbsp; TU München </li>
+  </ul> 
+     <li> Mathematik-Animationen / Video-Plattformen zur Mathematik </li>
+       <ul>
+       <li> <a href="https://www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A"> Numberphile</a>  </li>
+	   <li> <a href="https://www.3blue1brown.com/"> 3Blue1Brown (allgemein) </a> </li>  
+	   <li> <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw"> 3Blue1Brown (video channel) </a> </li>  
+     <li> <a href="https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg"> Mathologer </a> </li>   
+    	 
+  	<li> Einige herausragende Beispiele: </li>      
+	<ul> 
+	  <li> Die Monster-Gruppe  (Symmetrie, Gruppen, Gleichungen, Radikale, und die Monster-Gruppe):  <br> 
+	  <a href="https://www.youtube.com/watch?v=mH0oCDa74tE"> The Monster Group (3Blue1Brown) </a> <br> 
+	  <a href="https://www.youtube.com/watch?v=jsSeoGpiWsw"> The Monster Group (Numberphile)  </a> </li> 
+	  <li> Das "Basler"-Problem (Lösung durch L. Euler) / mathematisch-physikalische Lösung im Video durch ein geschicktes Arrangement von Lichtquellen ("lighthouses"): <br>  
+	    <a href="https://www.youtube.com/watch?v=d-o3eB9sfls"> The Basel Problem  </a> </li> 
+	  <li> Die Riemannsche Zeta-Funktion: 
+	    <a href="https://www.youtube.com/watch?v=sD0NjbwqlYw"> The Riemann Zeta-Function </a> </li>  
+	  <li> Die Kleinsche Flasche: 
+	    <a href="https://www.youtube.com/watch?v=dfhiVaJj9UY"> How to Fill a Klein Bottle </a> </li>  
+	</ul>  
+  </ul> 
+</ul>
+  
+</body> 
+
+</html> 
+
+
