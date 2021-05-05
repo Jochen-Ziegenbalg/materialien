@@ -37,7 +37,7 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 	onmouseover="window.status='Bitte die Spalten-Zahl eingeben! '" 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	Welche ungestrichene Zahl wird jeweils als Erste gestrichen?  
+	Welche ungestrichene Zahl wird jeweils als erste gestrichen?  
   
   <br> <br>
   <input value="Start"  onclick="SiebStart()"  type="button"> 
