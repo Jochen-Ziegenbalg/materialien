@@ -17,8 +17,7 @@
   <i><font size="4"> Eratosthenes von Kyrene ca. 276-194 v.Chr. </font> </i> 
 </div> 
 
-<p> Die Felder "Obergenze" und "Spaltenzahl" können frei belegt werden.  <br> 
-Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den Standardwerten befüllt. 
+<p> Die Felder "Obergenze" und "Spaltenzahl" können frei belegt oder mit dem "Start"-Knopf aktiviert werden. <br> 
 <!-- Der Stand des Verfahrens wird in Form einer Tabelle dargestellt; das Darstellungsfenster  sollte wegen der Übersichtlichkeit hinreichend breit sein.  --> 
 </p>
 

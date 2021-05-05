@@ -17,9 +17,8 @@
   <i><font size="4"> Eratosthenes von Kyrene ca. 276-194 v.Chr. </font> </i> 
 </div> 
 
-<p> Die Felder "Obergenze" und "Spaltenzahl" können frei belegt werden.  <br> 
-Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den Standardwerten befüllt. 
-<!-- Der Stand des Verfahrens wird in Form einer Tabelle dargestellt; das Darstellungsfenster  sollte wegen der Übersichtlichkeit hinreichend breit sein.  --> 
+<p> Die Felder "Obergenze" und "Spaltenzahl" können frei belegt und mit dem "Start"-Knopf aktiviert werden. <br> 
+Der Stand des Verfahrens wird in Form einer Tabelle dargestellt; das Darstellungsfenster  sollte wegen der Übersichtlichkeit hinreichend breit sein.  
 </p>
 
 <form name="Eratosthenes"> 
@@ -28,18 +27,13 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
     onclick="obergrenze = document.Eratosthenes.grenze.value" 
 	onmouseover="window.status='Bitte die Obergrenze eingeben! '" 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;  
-	&nbsp;&nbsp;&nbsp;&nbsp;
-	<b>Fragen:</b>  Welches Muster bilden die gestrichenen Zahlen?  
   <br> 
   Spaltenzahl (frei festlegen oder Standardwert = &nbsp; 18): &nbsp; 
   <input size="3" name="spaltenzhl" 
     onclick="spaltenzahl = document.Eratosthenes.spaltenzhl.value" 
 	onmouseover="window.status='Bitte die Spalten-Zahl eingeben! '" 
-	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	Welche ungestrichene Zahl wird jeweils als erste gestrichen?  
-  
-  <br> <br>
+	onmouseout="window.status=''" type="text"> </form> 
+  <br> 
   <input value="Start"  onclick="SiebStart()"  type="button"> 
   <input value="Weiter" onclick="SiebWeiter()" type="button"> 
   <input value="Stop"   onclick="SiebStop()"   type="button">  
