@@ -37,12 +37,13 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	
+  
   <br> <br>
   <input value="Start"  onclick="SiebStart()"  type="button">
   <input value="Weiter" onclick="SiebWeiter()" type="button">
   <input value="Stop"   onclick="SiebStop()"   type="button">
   &nbsp;&nbsp; 
-  <a href="Sieb-des-Eratosthenes-Text.pdf" target="_blank"> Erläuterungen (pdf)</a> 
+  <a href="Sieb-des-Eratosthenes-Text.pdf" target="_blank" > Erläuterungen (pdf)</a> 
   &nbsp;&nbsp;&nbsp;&nbsp; 
  
   <button onclick="AlertEratosthenes()">Experimente / Fragen / Anregungen </button> &nbsp;&nbsp;&nbsp;&nbsp; 

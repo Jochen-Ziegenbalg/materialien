@@ -37,23 +37,14 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	
+  
   <br> <br>
   <input value="Start"  onclick="SiebStart()"  type="button">
   <input value="Weiter" onclick="SiebWeiter()" type="button">
   <input value="Stop"   onclick="SiebStop()"   type="button">
-  &nbsp;&nbsp; 
-  <a href="Sieb-des-Eratosthenes-Text.pdf" target="_blank"> Erläuterungen (pdf)</a> 
-  &nbsp;&nbsp;&nbsp;&nbsp; 
- 
-  <button onclick="AlertEratosthenes()">Experimente / Fragen / Anregungen </button> &nbsp;&nbsp;&nbsp;&nbsp; 
-  
-  <!-- 
-  
-   <a href="https://jochen-ziegenbalg.github.io/materialien/Demos+Simulationen/Sieb-des-Eratosthenes/Sieb-des-Eratosthenes.html">Erläuterungen (pdf)</a> 
-  
-  
-  <button onclick="ErlEratosthenes()">Erläuterungen </button>  -->
-  
+  &nbsp;&nbsp;
+  <button onclick="AlertEratosthenes()">Fragen / Anregungen </button> &nbsp;&nbsp;
+  <button onclick="ErlEratosthenes()">Erläuterungen </button> 
 <script> 
   var TextAlertEratosthenes = "* Experimentiere mit verschiedenen Spaltenzahlen \n   (z.B. 10, 12, 13, 15, 16, 18, 20) \n * Welches Muster bilden jeweils die gestrichenen Zahlen?  \n * Wann stehen die gestrichenen Zahlen senkrecht untereinander? \n * Erkläre die diagonalen Linien. \n * Was ist die erste neue zu streichende Zahl? \n * Wann werden keine neuen Zahlen mehr gestrichen? "
 
@@ -70,7 +61,7 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 <table border="0" cellpadding="4" cellspacing="4">
   <tbody>
     <tr>
-      <td bgcolor="#ffff00" width="310">
+      <td bgcolor="#ffff00" width="240">
         <div id="Layer2">&nbsp;</div>
       </td>
       <td bgcolor="#ffff00" width="260">
@@ -78,7 +69,7 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
       </td>
       <td bgcolor="#ffff00" width="240">
         <div id="Layer4">&nbsp;</div>
-      </td> 
+      </td>
     </tr>
   </tbody>
 </table> 

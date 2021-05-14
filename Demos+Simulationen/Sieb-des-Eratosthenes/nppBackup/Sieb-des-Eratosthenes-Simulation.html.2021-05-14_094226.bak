@@ -37,12 +37,13 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	
+  
   <br> <br>
   <input value="Start"  onclick="SiebStart()"  type="button">
   <input value="Weiter" onclick="SiebWeiter()" type="button">
   <input value="Stop"   onclick="SiebStop()"   type="button">
   &nbsp;&nbsp; 
-  <a href="Sieb-des-Eratosthenes-Text.pdf" target="_blank"> Erläuterungen (pdf)</a> 
+  <a href="Sieb-des-Eratosthenes-Text.pdf">Erläuterungen (pdf)</a> 
   &nbsp;&nbsp;&nbsp;&nbsp; 
  
   <button onclick="AlertEratosthenes()">Experimente / Fragen / Anregungen </button> &nbsp;&nbsp;&nbsp;&nbsp; 
@@ -70,10 +71,10 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 <table border="0" cellpadding="4" cellspacing="4">
   <tbody>
     <tr>
-      <td bgcolor="#ffff00" width="310">
+      <td bgcolor="#ffff00" width="280">
         <div id="Layer2">&nbsp;</div>
       </td>
-      <td bgcolor="#ffff00" width="260">
+      <td bgcolor="#ffff00" width="240">
         <div id="Layer3">&nbsp;</div>
       </td>
       <td bgcolor="#ffff00" width="240">

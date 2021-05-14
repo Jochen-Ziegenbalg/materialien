@@ -37,6 +37,7 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	
+  
   <br> <br>
   <input value="Start"  onclick="SiebStart()"  type="button">
   <input value="Weiter" onclick="SiebWeiter()" type="button">
