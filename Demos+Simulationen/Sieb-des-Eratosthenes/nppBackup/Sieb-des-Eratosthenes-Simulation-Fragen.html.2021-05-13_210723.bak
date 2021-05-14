@@ -52,7 +52,7 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
     {alert(TextAlertEratosthenes)} 
   
   function ErlEratosthenes()  
-   {alert("Sieb des Eratosthenes - Erläuterungen \n siehe https://jochen-ziegenbalg.github.io/materialien/Demos+Simulationen/Sieb-des-Eratosthenes/Sieb-des-Eratosthenes.html")} 
+   {alert("Sieb des Eratosthenes - Erläuterungen")} 
   
 </script>
 

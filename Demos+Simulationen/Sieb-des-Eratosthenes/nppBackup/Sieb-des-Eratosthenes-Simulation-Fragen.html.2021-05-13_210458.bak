@@ -27,35 +27,22 @@ Werden sie nicht belegt, so werden sie beim Klicken auf den Start-Knopf mit den 
   <input size="6" name="grenze" 
     onclick="obergrenze = document.Eratosthenes.grenze.value" 
 	onmouseover="window.status='Bitte die Obergrenze eingeben! '" 
-	onmouseout="window.status=''" type="text"> &nbsp;&nbsp; 
-
-<br> 
+	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;  
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<b>Fragen:</b>  Welches Muster bilden die gestrichenen Zahlen?  
+  <br> 
   Spaltenzahl (frei festlegen oder Standardwert = &nbsp; 18): &nbsp; 
   <input size="3" name="spaltenzhl" 
     onclick="spaltenzahl = document.Eratosthenes.spaltenzhl.value" 
 	onmouseover="window.status='Bitte die Spalten-Zahl eingeben! '" 
 	onmouseout="window.status=''" type="text"> &nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	
+	Welche ungestrichene Zahl wird jeweils als Erste gestrichen?  
   
   <br> <br>
-  <input value="Start"  onclick="SiebStart()"  type="button">
-  <input value="Weiter" onclick="SiebWeiter()" type="button">
-  <input value="Stop"   onclick="SiebStop()"   type="button">
-  &nbsp;&nbsp;
-  <button onclick="AlertEratosthenes()">Fragen / Anregungen </button> &nbsp;&nbsp;
-  <button onclick="ErlEratosthenes()">Erläuterungen </button> 
-<script> 
-  var TextAlertEratosthenes = "* Experimentiere mit verschiedenen Spaltenzahlen \n   (z.B. 10, 12, 13, 15, 16, 18, 20) \n * Welches Muster bilden jeweils die gestrichenen Zahlen?  \n * Wann stehen die gestrichenen Zahlen senkrecht untereinander? \n * Erkläre die diagonalen Linien. \n * Was ist die erste neue zu streichende Zahl? \n * Wann werden keine neuen Zahlen mehr gestrichen? "
-
-  function AlertEratosthenes()  
-    {alert(TextAlertEratosthenes)} 
-  
-  function ErlEratosthenes()  
-   {alert("Sieb des Eratosthenes - Erläuterungen \n siehe https://jochen-ziegenbalg.github.io/materialien/Demos+Simulationen/Sieb-des-Eratosthenes/Sieb-des-Eratosthenes.html")} 
-  
-</script>
-
+  <input value="Start"  onclick="SiebStart()"  type="button"> 
+  <input value="Weiter" onclick="SiebWeiter()" type="button"> 
+  <input value="Stop"   onclick="SiebStop()"   type="button">  
  </form> 
 
 <table border="0" cellpadding="4" cellspacing="4">

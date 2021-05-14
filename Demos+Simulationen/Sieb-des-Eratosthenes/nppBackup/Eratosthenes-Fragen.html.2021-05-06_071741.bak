@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+  <title>Eratosthenes - Fragen </title>
+  <meta name="author" content="Jochen Ziegenbalg">
+  <!-- next:  css stuff / reduce margin --> 
+  <!-- QQQ   p {margin-bottom: 10px }  QQQ  -->
+  <style>    
+    h2, p {margin: 10px }
+  </style>  
+</head>
+
+<html> 
+
+<script>
+function FensterOeffnen (Adresse) {
+  MeinFenster = window.open(Adresse, "Zweitfenster", "width=300,height=400,left=100,top=200");
+  MeinFenster.document.write("<p>ein neues Fenster!<br>(Besser wäre aber eine dialog-Box!)</p>");
+  MeinFenster.focus();
+}
+</script>
+
+<body> 
+<h2>Experimente / Anregungen / Aufgaben / Fragen </h2>
+<p>
+* Experimentiere mit verschiedenen Spaltenzahlen <br> 
+  (z.B. 10, 12, 13, 15, 16, 18, 20) <br> 
+* Welches Muster haben jeweils die gestrichenen Zahlen?  <br> 
+* Wann stehen die gestrichenen Zahlen senkrecht untereinander? <br> 
+* Erkläre die diagonalen Linien. <br> 
+* Wann verlaufen die gestrichenen diagonalen Linien nach links unten? <br> 
+* Wann verlaufen sie nach rechts unten? <br> 
+* Was ist die erste neue gestrichene Zahl? <br> 
+* Wann werden keine neuen Zahlen mehr gestrichen?  <br> 
+</p> 	
+
+
+</body>   
+</html> 
