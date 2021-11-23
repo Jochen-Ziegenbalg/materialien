@@ -17,8 +17,8 @@
 <!-- <body style="background-color: rgb(232, 232, 232); direction: ltr;">   --> 
 <!-- alternative background-color:  rgb(224, 255, 224);  --> 
 <h2> Materialien: Bücher, Texte, Infos, Demos, Simulationen  <br> 
-     <small> <small> zu Mathematik und Informatik </small> </small> <br> 
-	 <small> <small> Jochen Ziegenbalg  <a href="cv/curriculum-vitae-english.html"> cv </a> </small> </small>  </h2> 
+     <small> <small> zu Mathematik und Informatik <br> 
+	 Jochen Ziegenbalg </small> </small> </h2> 
 
 <p> <i>Status</i>:  work in progress   </p>  
 
@@ -37,6 +37,8 @@
    
   <!-- <li> <a href="cv/curriculum-vitae.html"> cv </a> </li> -->
 </ul> 
+
+  <p> <a href="cv/curriculum-vitae-english.html"> cv </a> <\p> 
   
   <p> <i> Ein allgemeiner Hinweis</i>:  &nbsp; </p> 
   <p> Nach meiner Entpflichtung haben sich im Laufe der Zeit meine elektronischen "Koordinaten" wie folgt geändert:  </p> 
