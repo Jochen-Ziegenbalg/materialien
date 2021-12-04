@@ -37,8 +37,7 @@
 <ul> 
     <li> <a href="Heron-w.pdf"> Heron’s algorithm  (The Babylonian-Sumerian root-algorithm)  </a> </li>
     <li> <a href="Euclid-w.pdf"> Euclid’s algorithm      </a> </li>
-    <li> <a href="Eratosthenes-w.pdf"> The Sieve of Eratosthenes      </a> </li> 
-	 <li> <a href="Eratosthenes.pdf"> The Sieve of Eratosthenes: programs in Maxima and Mathematica    </a> </li>
+    <li> <a href="Eratosthenes-w.pdf"> The Sieve of  Eratosthenes      </a> </li>
     <li> <a href="Pi-Archimedes-w.pdf"> Archimedes‘ algorithm for approximating Pi      </a> </li>
     <li> <a href="egyptian-mult-w.pdf"> The Egyptian multiplication algorithm      </a> </li>
     <li> <a href="Fibonacci-Dw.pdf"> Fibonacci numbers – case studies in recursion and iteration </a> </ul> 
