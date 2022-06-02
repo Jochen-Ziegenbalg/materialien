@@ -1,0 +1,41 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{Warsaw}  %% Themenwahl
+
+\title{Präsentation}
+\author{Max Mustermann}
+\date{\today}
+
+\begin{document}
+\maketitle
+\frame{\tableofcontents[currentsection]}
+
+\section{Abschnitt 1}
+\begin{frame} %%Eine Folie
+  \frametitle{Ein Demotitel} %%Folientitel
+  \begin{Definition} %%Definition
+    Eine Definition
+  \end{Definition}
+\end{frame}  
+
+\begin{frame} %%Eine Folie  
+  \frametitle{Satz des Pythagoras}    %%Folientitel
+  \begin{Theorem}    
+    Der \textbf{Satz des Pythagoras}  \\ 
+    \vspace{2 mm}
+    In jedem rechtwinkligen Dreieck mit den Katheten $a$ und $b$ und 
+    der Hypotenuse $c$ gilt:   
+    $$ a^2 + b^2 = c^2 $$
+  \end{Theorem}
+\end{frame}
+
+\begin{frame} %%Eine Folie  
+  \frametitle{Satz des Pythagoras}    %%Folientitel
+    Der \textbf{Satz des Pythagoras}  \\ 
+    \vspace{2 mm}
+    In jedem rechtwinkligen Dreieck mit den Katheten $a$ und $b$ und 
+    der Hypotenuse $c$ gilt:   
+    $$ a^2 + b^2 = c^2 $$
+\end{frame}
+
+\end{document}

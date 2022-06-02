@@ -1,0 +1,19 @@
+\documentclass{beamer}
+
+\begin{document}
+
+\begin{frame}
+\hyperlink{label}{\beamerbutton{I jump to fourth slide of next frame}}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}[<+->]
+\item First.
+\item Second.
+\item Third.
+\item Fourth.\hypertarget<4>{label}{\beamerbutton{I'm on the fourth slide}}
+\item Fifth.
+\end{itemize}
+\end{frame}
+
+\end{document}
