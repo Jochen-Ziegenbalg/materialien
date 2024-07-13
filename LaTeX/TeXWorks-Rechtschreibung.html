@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+  <title>TeXWorks Rechschreibung</title>
+  <!-- next:  css stuff / reduce margin --> 
+  <!-- QQQ   p {margin-bottom: 10px }  QQQ  -->
+  <style>    
+    p,h2, h3 {margin:      10px}
+	li   {margin-left -16px}
+  </style>  
+</head>
+
+<body>  
+
+<hr>
+<h2>Installation der TeXWorks Rechtschreibung </h2>
+
+<p> Kontext:  Windows 10 und 11 mit  TeXLive/TeXWorks.  </p>  
+
+<p> Die Installation ist im Prinzip "straightforward" und ganz gut auf der Seite</p>  
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://tex.stackexchange.com/a/238852/">  https://tex.stackexchange.com/a/238852/ </a>        <br>
+	   
+ <p>  beschrieben.  </p>
+   
+ <p>  Allerdings ist nicht immer ganz klar, wohin die benötigten Wörterbuch- und sonstigen Hilfsdateien gespeichert werden müssen.  </p>
+
+<p> Deshalb sei hier im Folgenden im Detail beschrieben, wie es im konkreten Fall funktioniert hat, und zwar mit echten, konkreten Datei- und Verzeichnis-Namen.  </p>
+
+<ol> 
+<li>  <i>Vorbemerkung</i>:  &nbsp;&nbsp; Die einschlägigen Dateien werden von Open Office übernommen.  </li>  
+
+<li>  Auf die Seite <br>  
+      &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://extensions.openoffice.org/en/search">   
+      https://extensions.openoffice.org/en/search   </a> &nbsp;&nbsp;(= OpenOffice.org extensions) <br>
+	  gehen und im Feld "Search extensions"  nach  "German"  suchen.   </li>  
+	  
+ <li>  Eine geeignete Download Datei herunterladen.  <br> 
+       Im konkreten Fall: &nbsp;&nbsp; 
+        German (de-DE frami) dictionaries  <br> 
+       Der Name der heruntergeladenen Datei ist dann <br>   &nbsp;&nbsp;&nbsp;&nbsp; dict-de_de-frami_2017-01-12.oxt     </li> 
+	  
+ <li>   Diese Datei umbenennen in  <br> 
+        &nbsp;&nbsp;&nbsp;&nbsp; dict-de_de-frami_2017-01-12.zip  <br> 
+        (dabei:  die Windows-Warnung wegen des Umbenennens ignorieren)   </li>
+		
+ <li>   Die (umbenannte) zip-Datei mit dem Windows Explorer durchsuchen (zwei Ebenen) und dabei die Dateien  <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; de_DE_frami.dic  und  <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;  hyph_de_DE.dic   <br>
+	  per copy & paste aus der zip-Datei  <br> 
+	    &nbsp;&nbsp;&nbsp;&nbsp; dict-de_de-frami_2017-01-12.zip   <br> 
+	  in das folgende Verzeichnis übertragen:  <br> 
+      &nbsp;&nbsp;&nbsp;&nbsp;C:\Users\Windows-10\.texlive2017\texmf-config\texworks/dictionaries  <br>
+      Dabei muss das Verzeichnis  <br> 
+	  &nbsp;&nbsp;&nbsp;&nbsp; dictionaries  <br>
+	  ggf. vorher erzeugt werden, 
+      wenn es nicht schon existiert.  <br>
+	  &nbsp;&nbsp;&nbsp;&nbsp; <br>
+      <i>Bemerkung</i>:   &nbsp;&nbsp; Wenn man sich dabei im Windows Explorer "durchhangelt", lautet (im deutschsprachigen) Explorer der Verzeichnis-Name  "Users"  in der Regel  "Benutzer".  	  <br>
+	  An Stelle von  &nbsp;&nbsp; .texlive2017  &nbsp;&nbsp; (im obigen Beispiel) muss das entsprechende aktuelle Verzeichnis gewählt werden.  Die Struktur des Dateinamens ist dabei  &nbsp;&nbsp;.texliveJJJJ &nbsp;&nbsp; wobei JJJJ für das Jahr der TeXLive Installation steht. (Der Punkt vor &nbsp;&nbsp; texliveJJJJ &nbsp;&nbsp; ist dabei wesentlich.)   Wenn TeXLive/TeXWorks bereits installiert ist, ist dieses Verzeichnis i.d.R. auch schon vorhanden. 
+      <br>  &nbsp;&nbsp;
+	  </li>   
+
+ <li> TeXLive/TeXWorks starten, in das Edit-Menue gehen, Rechtschreibung und die 
+      gewünschte Sprache auswählen.     </li> 
+
+ <li>  Bevor man die Rechtschreibung nutzen kann, muss man erst mal TeXLive/TeXWorks schliessen.   </li> 
+
+ <li>  Nach einem weiteren Start von TeXLive/TeXWorks sollte die 
+      Rechtschreibung zur Verfügung stehen.  
+</ol>
+  
+</body>  
+</html>
+
